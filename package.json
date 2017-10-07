@@ -1,5 +1,5 @@
 {
-  "name": "angular-generator",
+  "name": "angular-simple-generator",
   "version": "1.0.0",
   "description": "You can generate angular component, module and the rest via cli.",
   "main": "app.js",

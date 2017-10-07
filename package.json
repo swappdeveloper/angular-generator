@@ -1,0 +1,27 @@
+{
+  "name": "angular-generator",
+  "version": "1.0.0",
+  "description": "You can generate angular component, module and the rest via cli.",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular-generator",
+    "non-angular-cli",
+    "independent",
+    "angular-generator"
+  ],
+  "preferGlobal": true,
+  "bin": {
+    "ang": "./bin/global.js"
+  },
+  "author": "Sina Wahed",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  }
+}

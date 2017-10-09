@@ -1,4 +1,10 @@
 # angular-generator
+
+Download this repo via the download link or git. <br/>
+Unzip if directely downloaded vai download link <br/>
+open command-line <br/>
+type c: > npm install -g c:/downloads/angular-generator-master <br/>
+
 You can generate angular component, module and the rest via cli.<br/>
 
 ang <run> <component type> <component name> <br/>

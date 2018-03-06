@@ -46,7 +46,12 @@ var waitForUserInput = function(run, cType, cName) {
     } 
 
     if (run === '--help') {
-        console.log(fs.readFileSync('angular-generator/lib/help.txt', 'utf8'));
+        var installedPath = process.env.APPDATA+ '\\npm\\node_modules\\angular-simple-generator';
+        if(fs.existsSync(installedPath)) {
+            console.log(fs.readFileSync(installedPath+'\\lib\\help.txt', 'utf8'));
+        } else {
+            console.info('Please install globaly - npm install -g angular-simple-generator');
+        }
     } else {
         console.log('I did not recognize your command, try ang --help');
     }
